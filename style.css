@@ -15,6 +15,7 @@ body {
     font-size: 42px;
     padding-top: 85px;
     left: 65%;
+    position: absolute;
 }
 
 .gamecontainer {
@@ -24,6 +25,7 @@ body {
     height: 100vh;
     background-size: 100vw 100vh;
     /* animation: trackMove linear 6s infinite;*/
+    position: absolute;
 }
 
 .gameover {
@@ -36,6 +38,7 @@ body {
     height: 800px;
     z-index: 100;
     visibility: hidden;
+    position: absolute;
 }
 
 .track {
@@ -46,6 +49,7 @@ body {
     position: absolute;
     background-size: contain;
     bottom: -1%;
+    position: absolute;
 }
 
 .mario {
@@ -57,6 +61,7 @@ body {
     top: 65%;
     position: absolute;
     left: 25%;
+    position: absolute;
 }
 
 .obstacle {
@@ -68,6 +73,7 @@ body {
     top: 68.5%;
     position: absolute;
     left: 60%;
+    position: absolute;
 }
 
 .animateMario {
