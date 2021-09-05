@@ -50,31 +50,28 @@ body {
     position: absolute;
     background-size: contain;
     bottom: -1%;
-    position: absolute;
 }
 
 .mario {
     background-image: url(images/mario.png);
     background-repeat: no-repeat;
-    width: 141px;
-    height: 173px;
+    width: 98px;
+    height: 141px;
     background-size: cover;
-    top: 56.5%;
+    top: 63.5%;
     position: absolute;
     left: 25%;
-    position: absolute;
 }
 
 .obstacle {
     background-image: url(images/dragon.png);
     background-repeat: no-repeat;
-    width: 217px;
-    height: 147px;
+    width: 161px;
+    height: 108px;
     background-size: cover;
-    top: 60.5%;
+    top: 66.5%;
     position: absolute;
     left: 60%;
-    position: absolute;
 }
 
 .animateMario {
@@ -104,20 +101,32 @@ body {
     0% {
         top: 56.5%;
         background-image: url(images/mario-jump.png);
-        width: 135px;
-        height: 135px;
+        width: 115px;
+        height: 114px;
     }
     50% {
         top: 25%;
         background-image: url(images/mario-jump.png);
-        width: 135px;
-        height: 135px;
+        width: 115px;
+        height: 114px;
     }
     100% {
         top: 56.5%;
         background-image: url(images/mario-jump.png);
-        width: 135px;
-        height: 135px;
+        width: 115px;
+        height: 114px;
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translateY(-5px);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(-5px);
     }
 }
 
