@@ -4,17 +4,18 @@
 }
 
 body {
+    background-color: red;
     overflow: hidden;
 }
 
 #scorecount {
     font-family: 'Press Start 2P', cursive;
     position: relative;
-    width: 680px;
-    height: 152px;
-    font-size: 42px;
+    width: 418px;
+    height: 141px;
+    font-size: 23px;
     padding-top: 85px;
-    left: 65%;
+    left: 70%;
     position: absolute;
 }
 
@@ -24,21 +25,21 @@ body {
     width: 100%;
     height: 100vh;
     background-size: 100vw 100vh;
-    /* animation: trackMove linear 6s infinite;*/
     position: absolute;
+    /* animation: trackMove linear 6s infinite;*/
 }
 
 .gameover {
     top: 14%;
-    left: 30%;
+    left: 35%;
     background-image: url(images/gameover.gif);
     position: absolute;
     background-size: contain;
-    width: 1040px;
-    height: 800px;
+    background-repeat: no-repeat;
+    width: 423px;
+    height: 315px;
     z-index: 100;
     visibility: hidden;
-    position: absolute;
 }
 
 .track {
@@ -55,10 +56,10 @@ body {
 .mario {
     background-image: url(images/mario.png);
     background-repeat: no-repeat;
-    width: 194px;
-    height: 240px;
+    width: 141px;
+    height: 173px;
     background-size: cover;
-    top: 65%;
+    top: 56.5%;
     position: absolute;
     left: 25%;
     position: absolute;
@@ -67,10 +68,10 @@ body {
 .obstacle {
     background-image: url(images/dragon.png);
     background-repeat: no-repeat;
-    width: 294px;
-    height: 200px;
+    width: 217px;
+    height: 147px;
     background-size: cover;
-    top: 68.5%;
+    top: 60.5%;
     position: absolute;
     left: 60%;
     position: absolute;
@@ -101,22 +102,22 @@ body {
 
 @keyframes marioUP {
     0% {
-        top: 65%;
+        top: 56.5%;
         background-image: url(images/mario-jump.png);
-        width: 204px;
-        height: 204px;
+        width: 135px;
+        height: 135px;
     }
     50% {
-        top: 30%;
+        top: 25%;
         background-image: url(images/mario-jump.png);
-        width: 204px;
-        height: 204px;
+        width: 135px;
+        height: 135px;
     }
     100% {
-        top: 65%;
+        top: 56.5%;
         background-image: url(images/mario-jump.png);
-        width: 204px;
-        height: 204px;
+        width: 135px;
+        height: 135px;
     }
 }
 
